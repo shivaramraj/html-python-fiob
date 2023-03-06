@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+        function fibonacci(n) {
+  var a = 0, b = 1, temp;
+
+  while (n >= 0) {
+    console.log(a);
+    temp = a;
+    a = b;
+    b = temp + b;
+    n--;
+  }
+}
+
+fibonacci(10); // prints the first 10 Fibonacci numbers
+
+    </script>
+</head>
+<body>
+</body>
+</html>

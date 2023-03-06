@@ -1,0 +1,71 @@
+body
+{
+    background: linear-gradient(300deg,rgb(52,93,137),rgb(251,232,166),rgb(219,180,137),rgb(176,176,166),rgb(58,70,82)) fixed;
+}
+#a
+{
+    width: 344px;
+    height: 399px;
+    border-radius: 20px;
+    margin: 70px auto;
+    box-shadow: 0px 0px 1px 1px rgb(78,78,80);
+    overflow: hidden;
+    position: relative;
+}
+#a>.A
+{
+    width: inherit;
+    background-size: cover;
+    height: inherit;
+    transition: all 2s linear 7s;
+}
+#a:hover>.A
+{
+    transform: scale(1.5,1.5);
+}
+#b
+{
+    position:absolute ;
+    top: 1px;
+    left: 0px;
+    width: inherit;
+    height: inherit;
+}
+#b>.B
+{
+    width: inherit;
+    height: inherit;
+    transition: all 2s linear 5s;
+}
+#a:hover .B
+{
+    transform: translateY(-100%);
+}
+#c
+{
+    position: absolute;
+    top:1px;
+    left: 0px;
+    width: inherit;
+    height: inherit;
+}
+#c>.C
+{
+    width: 170px;
+    height: inherit;
+    transition: all 2s linear 2s;
+}
+#c:hover>.C
+{
+    transform: translateX(-100%);
+}
+#c>.D
+{
+    width: 170px;
+    height: inherit;
+    transition: all 2s linear 2s;
+}
+#c:hover>.D
+{
+    transform: translateX(100%);
+}
